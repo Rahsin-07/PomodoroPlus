@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #1e555c;
+}
+h1 {
+  font-size: 42px;
+  color: white;
+}
+#break-label,
+#session-label,
+#timer-label {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+#break-session-box {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  width: 50%;
+  margin: auto;
+}
+#break-timer {
+  display: flex;
+  margin-left: 25px;
+}
+#break-length {
+  margin: 4px;
+}
+#session-length {
+  margin: 4px;
+}
+
+#session-timer {
+  display: flex;
+  margin-left: 25px;
+}
+
+#timer-display-box {
+  display: flex;
+  justify-content: center;
+}
+#timer-display {
+  padding: 5px;
+  border: 7px solid #13353a;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  height: 160px;
+  border-radius: 50px;
+}
+#controller {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #1e555c;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.2);
+  color: black;
+}
